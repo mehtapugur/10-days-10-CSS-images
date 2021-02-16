@@ -15,21 +15,21 @@ body {
   margin: auto;
   display: block;
   margin-top: 8%;
-  width: 600px;
-  height: 420px;
+  width: 360px;
+  height: 340px;
   background: none;
-}
 
-.head {
-  position: absolute;
-  width: 50%;
-  height: 67%;
-  border-radius: 50%;
-  top: 15%;
-  left: 25%;
-  background: #edce42;
-  z-index: 1;
-  opacity: 0.99;
+  .head {
+    position: absolute;
+    width: 50%;
+    height: 67%;
+    border-radius: 50%;
+    top: 15%;
+    left: 25%;
+    background: #edce42;
+    z-index: 1;
+    opacity: 0.99;
+  }
 }
 
 .head-copy {
@@ -71,10 +71,10 @@ body {
   height: 80%;
   top: 10%;
   left: 10%;
-  background: #5C4023;
+  background: #5c4023;
 }
 
-.eye-left{
+.eye-left {
   position: absolute;
   background: none;
   width: 33%;
@@ -85,7 +85,7 @@ body {
   z-index: 2;
 }
 
-.eye-right{
+.eye-right {
   position: absolute;
   background: none;
   width: 33%;
@@ -96,27 +96,158 @@ body {
   z-index: 2;
 }
 
-.pupil{
+.pupil {
   position: absolute;
   width: 28%;
   height: 30%;
   top: 35%;
   left: 36%;
   border-radius: 50%;
-  background: #27354A;
+  background: #27354a;
 }
 
-.nose{
+.cheek-left {
   position: absolute;
-  background: #F38494;
+  background: #e23d3d;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  opacity: 0.5;
+  bottom: 20%;
+  left: 15%;
+  z-index: 2;
+}
+
+.cheek-right {
+  position: absolute;
+  background: #e23d3d;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  opacity: 0.5;
+  bottom: 20%;
+  right: 15%;
+  z-index: 2;
+}
+
+.white-mark {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  background: white;
+  height: 40%;
+  bottom: 0%;
+  border-radius: 50%;
+  z-index: 2; /*yüzün üstünde burnun altında */
+}
+
+.brown-mark {
+  position: absolute;
+  width: 12%;
+  left: 43.5%;
+  height: 30%;
+  top: 0%;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background: #5c4023;
+  z-index: 2;
+}
+
+.strip-left-top {
+  position: absolute;
+  background: #5c4023;
+  z-index: 2;
+  left: -1%;
+  top: 39%;
+  width: 20%;
+  height: 20%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+
+.strip-left-bottom {
+  position: absolute;
+  background: #5c4023;
+  z-index: 2;
+  left: 6%;
+  top: 42%;
+  width: 18%;
+  height: 30%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+
+.strip-right-top {
+  position: absolute;
+  background: #5c4023;
+  z-index: 2;
+  right: -1%;
+  top: 39%;
+  width: 20%;
+  height: 20%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.strip-right-bottom {
+  position: absolute;
+  background: #5c4023;
+  z-index: 2;
+  right: 6%;
+  top: 42%;
+  width: 18%;
+  height: 30%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+
+.nose {
+  position: absolute;
+  background: #f38494;
   width: 65%;
   height: 80%;
   right: -20%;
   bottom: -50%;
   z-index: 3;
-  	-webkit-clip-path: polygon(25% 0%, 63% 0, 63% 100%, 25% 100%, 0% 50%);
-clip-path: polygon(25% 0%, 63% 0, 63% 100%, 25% 100%, 0% 50%);
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-    transform: rotate(-90deg);
+  -webkit-clip-path: polygon(25% 0%, 63% 0, 63% 100%, 25% 100%, 0% 50%);
+  clip-path: polygon(25% 0%, 63% 0, 63% 100%, 25% 100%, 0% 50%);
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
 }
+
+@media all and (max-width: 480px) {
+  .box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 20%;
+    width: 400px;
+    height: 280px;
+    background: none;
+  }
+}
+
+//inspired by Mike Mangialardi
