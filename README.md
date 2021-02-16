@@ -6,4 +6,5 @@
 
 2. Tiger
 
-![Screenshot 2021-02-16 17 50 59](https://user-images.githubusercontent.com/24686636/108080697-33f94b80-7081-11eb-9852-7dc9662b8c5b.png)
+![Screenshot 2021-02-16 17 50 59](https://user-images.githubusercontent.com/24686636/108080854-5e4b0900-7081-11eb-984a-b9cf1567c95c.png)
+
