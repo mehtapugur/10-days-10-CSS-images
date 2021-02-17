@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #a2d495;
+}
+
+.container {
+  height: 500px;
+  width: 350px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.cat {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+.face {
+  background-color: #33292b;
+  height: 90px;
+  width: 150px;
+  border-radius: 30px;
+}
+
+.ear-left, .ear-right {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #33292b;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+  z-index: -1;
+ 
+}
+
+.ear-left {
+  bottom: 35px;
+  transform: rotate(-30deg);
+}
+
+.ear-right {
+  bottom: 85px;
+  left: 110px;
+  transform: rotate(30deg);
+}
+
+.inner-ear-left{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-left: 25px solid transparent;
+  right: 25px;
+  position: relative; /* verdiğim yeni konumda -ear left in içinde- kal demek */
+}
+
+.inner-ear-right{
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #d36149;
+  border-right: 25px solid transparent;
+  position: relative;
+}
+
+.eye-left, .eye-right {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d2873b;
+  position: relative;
+}
+
+.eye-left {
+  bottom: 75px;
+  left: 30px;
+}
+
+.eye-right {
+  bottom: 105px; /* 75 + 30 */
+  left: 90px;
+}
+
+.eyeball {
+  /* eyeball: göz küresi*/
+  background-color: #262626;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute; 
+  top: 3px;
+  left: 3px;
+}
+
+.nose {
+  height: 0;
+  width: 0;
+  border-top: 8px solid #d36149;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: relative;
+  bottom: 110px;
+  left: 68px;
+}
+
+.b1, .b2 {
+  background-color: #d36149;
+  height: 8px;
+  width: 1px;
+  position: relative;
+}
+
+.b1{
+  transform: rotate(45deg); /* saat yönünde döner */
+  right: 4px;
+  bottom: 1.5px;
+}
+
+.b2{
+  transform: rotate(-45deg); /* saat yönünün tersine döner */
+  left: 3px;
+  bottom: 9px;
+}
+
+.body {
+  height: 120px;
+  width: 130px;
+  background-color: #33292b;
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+  border-radius: 0 65px 0 0;
+}
+
+.paw-left, .paw-right {
+  height: 10px;
+  width: 22px;
+  background-color: #33292b;
+  position: relative; 
+  border-radius: 0 0 10px 10px;
+}
+
+.paw-left{
+  top: 120px;
+}
+
+.paw-right{
+  top: 110px;
+  left: 50px;
+}
+
+.tail {
+  background-color: #33292b;
+  height: 20px;
+  width: 100px;
+  position: relative;
+  top: 80px;
+  left: 100px;
+  border-radius: 0 10px 10px 0;
+}
+
+.shadow { /* gölgesi */
+  background-color: rgba(8, 8, 8, 0.05);
+  height: 30px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
+  left: 20px;
+  z-index: -1;
+}
