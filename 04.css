@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .card {
   width: 300px;
   display: grid;
@@ -5,8 +11,8 @@
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   background: white;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
   font-family: roboto;
   text-align: center;
   transition: 0.5s ease;
@@ -16,39 +22,23 @@
   left: 50%;
   margin-top: -250px;
   margin-left: -150px;
-} 
+}
 
 .card-image {
   grid-area: image;
   background: url(img-one.png);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-size: cover;
+  background-size: cover; /* image arka planı kaplar */
 }
+
 .card-text {
   grid-area: text;
   margin: 25px;
 }
-.card-stats {
-  grid-area: stats; 
-}
-
-.card-text .date {
-  color: rgb(255, 7, 110);
-  font-size:13px;
-}
-.card-text p {
-  color: grey;
-  font-size:15px;
-  font-weight: 300;
-}
-.card-text h2 {
-  margin-top:0px;
-  font-size:28px;
-}
 
 .card-stats {
-  grid-area: stats; 
+  grid-area: stats;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -57,13 +47,29 @@
   background: rgb(255, 7, 110);
 }
 
+.card-text .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+
+.card-text h2 {
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.card-text p {
+  color: gray;
+  font-size: 15px; 
+  font-weight: 300;
+}
+
 .card-stats .stat {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: white;
-  padding:10px;
+  padding: 10px;
 }
 
 .card:hover {
