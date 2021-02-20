@@ -24,4 +24,10 @@
 
 ![Screenshot 2021-02-19 21 56 25](https://user-images.githubusercontent.com/24686636/108549890-d7a35f80-72fe-11eb-90d6-d36c044fdee6.png)
 
+6. Circular Progress Bar
+
+![Screenshot 2021-02-20 22 16 37](https://user-images.githubusercontent.com/24686636/108606252-1a7e3980-73ca-11eb-93a0-fd0541bd45ae.png)
+
+![Screenshot 2021-02-20 22 17 00](https://user-images.githubusercontent.com/24686636/108606264-2bc74600-73ca-11eb-89e7-21398ba296f5.png)
+
 
