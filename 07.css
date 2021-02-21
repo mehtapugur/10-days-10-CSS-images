@@ -7,23 +7,23 @@
     position: absolute;
     width: 300px;
     height: 300px;
-    border: 20px solid #b06a26;
+    border: 20px solid #b06a26; /* çemberin kenarlığı */
     border-radius: 50%;
     left: 50%;
     top: 50%;
     background: #fefbf2;
-    transform: translate(-50%, -50%);
-    box-shadow: inset 0px 0px 10px black;
+    transform: translate(-50%, -50%); /* çember tam ortalansın diye orijinden %50si kadar yukarı ve sola taşınır */
+    box-shadow: inset 0px 0px 10px black; /* inset ile içgölge verilir */
 }
 
 .clock::before {
     position: absolute;
-    content: '';
+    content: ''; /* before, afterda content olmak zorunda */
     height: 130px;
     width: 10px;
     background: black;
     top: 50%;
-    left: calc(50% - 5px);
+    left: calc(50% - 5px); /*****/
     border-radius: 5px;
     animation: spin 6s linear infinite;
     transform-origin: top;
@@ -40,7 +40,6 @@
     border-radius: 5px;
     animation: spin 72s linear infinite;
     transform-origin: top;
-    
 }
 
 @keyframes spin {
@@ -63,7 +62,6 @@ body::before {
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-
 }
 
 body::after {
