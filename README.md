@@ -30,4 +30,8 @@
 
 ![Screenshot 2021-02-20 22 17 00](https://user-images.githubusercontent.com/24686636/108606264-2bc74600-73ca-11eb-89e7-21398ba296f5.png)
 
+### 7. Clock
+
+![Screenshot 2021-02-21 21 36 44](https://user-images.githubusercontent.com/24686636/108634984-a6a56500-748d-11eb-98da-132cc289fe47.png)
+
 
