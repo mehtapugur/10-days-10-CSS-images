@@ -38,4 +38,9 @@
 
 ![Screenshot 2021-02-22 22 19 01](https://user-images.githubusercontent.com/24686636/108758787-9314ff80-755c-11eb-8c3c-b7df30a8ffa4.png)
 
+### 9. Astronaut
+
+![Screenshot 2021-02-23 22 04 40](https://user-images.githubusercontent.com/24686636/108894431-5233ee00-7623-11eb-8776-3dc8d3748bca.png)
+
+
 
