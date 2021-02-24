@@ -1,0 +1,311 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #31abf9;
+  background-size: cover;
+}
+
+#computer {
+  position: relative;
+  width: 645px;
+  height: 440px;
+  display: block;
+  margin: auto;
+  border-radius: 1%;
+  background: #ffffff;
+  z-index: 3;
+}
+
+#connector {
+  position: relative;
+  width: 145px;
+  height: 80px;
+  display: block;
+  margin: auto;
+  border-radius: 1%;
+  background: #ffffff;
+  z-index: 3;
+}
+#base {
+  position: relative;
+  width: 445px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  margin-top: -10px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background: #ffffff;
+  z-index: 3;
+}
+
+#screen {
+  width: 90%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  height: 80%;
+  background: black;
+  z-index: 1;
+}
+
+.codepen {
+  position: abosolute;
+  padding-right: 1%;
+  left: 3%;
+  color: white;
+}
+
+#title {
+  color: white;
+  text-align: left;
+  margin-bottom: 0;
+  padding-left: 3%;
+  font-weight: 800;
+  letter-spaceing: 0.5px;
+  font-family: "Roboto Condensed";
+}
+
+#code {
+  font-weight: 100;
+  font-family: "Roboto Condensed";
+  color: #efc371;
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 5%;
+}
+
+#code-body {
+  font-weight: 100;
+  font-family: "Roboto Condensed";
+  color: #efc371;
+  margin-left: 2px;
+  margin-bottom: 5%;
+}
+#div {
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: 10%;
+  font-weight: 100;
+  font-family: "Roboto Condensed";
+  color: #efc371;
+}
+
+#subtitle {
+  color: white;
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 10px;
+  padding-left: 3%;
+  font-weight: 200;
+  font-family: "Roboto Condensed";
+}
+
+#green {
+  color: #b4bb66;
+}
+#white {
+  color: white;
+}
+#purple {
+  color: #9e87ae;
+}
+#orange {
+  color: #dd925f;
+}
+#gray {
+  font-size: 8px;
+  color: #999999;
+}
+
+#change-view {
+  width: 9%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  height: 8%;
+  background: #343436;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+#settings {
+  width: 9%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  right: 14%;
+  top: 5%;
+  height: 8%;
+  background: #343436;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+#fork {
+  width: 9%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  right: 24%;
+  top: 5%;
+  height: 5%;
+  border: solid 6px #343436;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+#save {
+  width: 9%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  right: 36.5%;
+  top: 5%;
+  height: 5%;
+  border: solid 6px #343436;
+  border-top: solid 6px #fedd31;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+#icons {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 9%;
+  top: 17%;
+}
+
+.cloud {
+  zoom: 75%;
+  padding-top: -7%;
+  padding-left: 10%;
+  color: #999999;
+}
+.fork-icon {
+  zoom: 85%;
+  color: #999999;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.cog-icon {
+  zoom: 85%;
+  padding-top: 16%;
+  padding-left: 10%;
+  color: #aeaeae;
+}
+
+.window {
+  zoom: 85%;
+  padding-top: 16%;
+  padding-left: 10%;
+  color: #aeaeae;
+}
+
+.eye {
+  zoom: 85%;
+  color: #aeaeae;
+}
+
+#gray-bar {
+  width: 100%;
+  display: block;
+  margin-top: -10px;
+  position: absolute;
+  height: 83%;
+  background: #343436;
+  z-index: 1;
+}
+
+#gray-fill {
+  width: 100%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  height: 83%;
+  background: #343436;
+  z-index: 1;
+}
+
+#col-1 {
+  width: 30%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 2%;
+  height: 78%;
+  background: #1d1f20;
+  z-index: 1;
+}
+
+#code-box {
+  width: 100%;
+  padding-bottom: 5px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  height: 5%;
+  top: 0%;
+  background: #111314;
+  z-index: 4;
+}
+#code-title {
+  color: #cccccc;
+  text-align: left;
+  margin-bottom: 0;
+  padding-left: 12%;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spaceing: 0.5px;
+  font-family: "Roboto Condensed";
+}
+
+#smaller {
+  font-size: 10px;
+}
+.cog {
+  zoom: 50%;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+
+.angle-down {
+  zoom: 50%;
+  color: white;
+  position: absolute;
+  top: 20%;
+  right: 3%;
+}
+
+#col-2 {
+  width: 30%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 35%;
+  height: 78%;
+  background: #1d1f20;
+  z-index: 1;
+}
+
+#col-3 {
+  width: 30%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  right: 2%;
+  height: 78%;
+  background: #1d1f20;
+  z-index: 1;
+}
